@@ -1,0 +1,17 @@
+---
+Name: accessibilityscanner
+---
+PageController:
+  extensions:
+    - Skynettechnologies\SilverstripeSkynetAccessibilityScanner\SilverstripeSkynetAccessibilityScanner
+SilverStripe\SiteConfig\SiteConfig:
+  extensions:
+    - Skynettechnologies\SilverstripeSkynetAccessibilityScanner\SilverstripeSkynetAccessibilityScannerSiteConfig
+---
+After:
+  - '#rootroutes'
+  - '#coreroutes'
+---
+SilverStripe\Control\Director:
+  rules:
+    fetchaccessibilityscanner: Skynettechnologies\SilverstripeSkynetAccessibilityScanner\SilverstripeSkynetAccessibilityScannerController
