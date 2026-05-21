@@ -6,6 +6,7 @@ use SilverStripe\Core\Config\Config;
 use SilverStripe\SiteConfig\SiteConfig;
 use SilverStripe\Control\Controller;
 use SilverStripe\Control\HTTPRequest;
+use SilverStripe\ORM\DataExtension;
 
 class SilverstripeSkynetAccessibilityScannerController extends Controller
 {

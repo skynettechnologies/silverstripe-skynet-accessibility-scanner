@@ -6,8 +6,9 @@ use SilverStripe\Forms\FieldList;
 use SilverStripe\Forms\LiteralField;
 use SilverStripe\ORM\DataExtension;
 use SilverStripe\View\Requirements;
+use SilverStripe\Core\Extension;
 
-class SilverstripeSkynetAccessibilityScannerSiteConfig extends DataExtension
+class SilverstripeSkynetAccessibilityScannerSiteConfig extends Extension
 {
 
     public function updateCMSFields(FieldList $fields)
